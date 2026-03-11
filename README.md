@@ -1,6 +1,6 @@
 # PowerTrades — Options Day Trading Skill
 
-An AI agent skill for options day trading, built on the [PowerTrades](https://powertrades.school) methodology. Use this skill with GitHub Copilot, Claude, ChatGPT, or any AI assistant to get structured trade analysis, risk management, and options chain evaluation.
+An AI agent skill for options day trading, built on my rules and methodology. Use this skill with GitHub Copilot, Claude, ChatGPT, or any AI assistant to get structured trade analysis, risk management, and options chain evaluation.
 
 ## What This Skill Does
 
