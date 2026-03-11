@@ -2,6 +2,19 @@
 
 An AI agent skill for options day trading, built on my rules and methodology. Use this skill with GitHub Copilot, Claude, ChatGPT, or any AI assistant to get structured trade analysis, risk management, and options chain evaluation.
 
+## Repository Structure
+
+```text
+.
+├── .agents/
+│   └── skills/
+│       └── trading_skill/
+│           └── SKILL.md
+├── .env.example
+├── LICENSE
+└── README.md
+```
+
 ## What This Skill Does
 
 - **Top-down technical analysis** — multi-timeframe S&R, patterns, trend identification
@@ -16,10 +29,10 @@ An AI agent skill for options day trading, built on my rules and methodology. Us
 ### 1. Add the skill to your AI agent
 
 **GitHub Copilot CLI / Copilot Chat:**
-Point your agent to `trading_skill.md` as a custom instruction or skill file.
+Point your agent to `.agents/skills/trading_skill/SKILL.md` as the custom skill file.
 
 **Other AI assistants:**
-Copy the contents of `trading_skill.md` into your system prompt or knowledge base.
+Copy the contents of `.agents/skills/trading_skill/SKILL.md` into your system prompt or knowledge base.
 
 ### 2. Set up API keys (optional but recommended)
 
@@ -48,7 +61,7 @@ All APIs have free tiers. `yfinance` requires no key at all.
 | **FRED** | 120 calls/min | [fred.stlouisfed.org](https://fred.stlouisfed.org/docs/api/api_key.html) |
 | **Polygon.io** | 5 calls/min (delayed) | [polygon.io](https://polygon.io/dashboard/signup) |
 
-See `.env.example` for the full list with step-by-step signup instructions in `trading_skill.md` §2.
+See `.env.example` for the full list with step-by-step signup instructions in `.agents/skills/trading_skill/SKILL.md` §2.
 
 ## Skill Structure
 
